@@ -1,5 +1,5 @@
 ## 🐍 Charm Query (python version)
-This repository contains all the code to run a lightweight demo version to test a hypothesis which I describe here: 
+This repository contains all the code to run a lightweight demo version to test a hypothesis which I describe here: https://dev.to/zakharsmirnoff/text-to-sql-translator-improved-with-vector-search-4km4
 *In short: translating plain English to SQL with the help of vector search*
 
 ### 🎥 Demo
