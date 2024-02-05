@@ -1,8 +1,14 @@
 ## Charm Query (python version)
 This repository contains all the code to run a lightweight demo version to test a hypothesis which I describe here: 
-*In short: translating plain English to SQL*
+*In short: translating plain English to SQL with the help of vector search*
 ### Quickstart:
 - Clone the repo
+- Set environment variables:
+``bash
+export OPENAI_API_KEY=<your openai_key>
+export DB_PATH=<full path to sqlite file>
+export DB_COLLECTION_NAME=<the name of your db which will create a collection with the same name in chroma db> # optional, if you don't sepcify, it will be set to 'default'. If you plan to test multiple databases, you'd better set this variable
+```
 - Run:
 ```bash
 pip install -r requirements.txt
