@@ -22,9 +22,9 @@ It should work for Python >= 3.7, though for lower versions it must be fine as w
 - Enjoy!
 
 This version has limited functionality but it offers just enough to experience the idea behind it. 
-For a more error-prone version please see the Go microservice:
+For a more error-prone version please see the Go microservice: https://github.com/zakharsmirnoff/charm-query/
 
-The following application uses the following stack: 
+The application uses the following stack: 
 - Streamlit frontend
 - Sqlite only
 - Chroma DB with L2 distance to calculate similarity
