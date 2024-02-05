@@ -51,7 +51,7 @@ def find_query(question: str):
             query_texts=[question],
             n_results=1,
         )
-        if result['distances'][0][0] <= 0.11:
+        if len(result['distances'][0]) > 0 and result['distances'][0][0] <= 0.11:
             return result['metadatas'][0][0]['query'], "db"
     except Exception as e:
         return f"Error when trying to query the db for similar queries: {e}"
