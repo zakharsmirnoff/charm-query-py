@@ -1,10 +1,10 @@
-## Charm Query (python version)
+## 🐍 Charm Query (python version)
 This repository contains all the code to run a lightweight demo version to test a hypothesis which I describe here: 
 *In short: translating plain English to SQL with the help of vector search*
 
-### Demo
+### 🎥 Demo
 [streamlit-main-2024-02-05-13-02-80.webm](https://github.com/zakharsmirnoff/charm-query-py/assets/89240654/dc573bbb-23b7-461f-a4ec-e05b385d4161)
-### Quickstart:
+### 🚀 Quickstart:
 - Clone the repo
 - Set environment variables:
 ```bash
