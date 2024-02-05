@@ -10,7 +10,7 @@ This repository contains all the code to run a lightweight demo version to test 
 ```bash
 export OPENAI_API_KEY=<your openai_key>
 export DB_PATH=<full path to sqlite file>
-export DB_COLLECTION_NAME=<the name of your db which will create a collection with the same name in chroma db> # optional, if you don't sepcify, it will be set to 'default'. If you plan to test multiple databases, you'd better set this variable
+export DB_COLLECTION_NAME=<the name of your db which will create a collection with the same name in chroma db> # optional, if you don't specify, it will be set to 'default'. If you plan to test multiple databases, you'd better set this variable
 ```
 - Run:
 ```bash
